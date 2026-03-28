@@ -7,7 +7,7 @@
     {{-- Hero --}}
     <x-section>
         <x-container>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-15">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-15">
                 <div>
                     <div class="prose md:prose-lg">
                         <h1>Balatoni Retró Gyerektábor Szántódon</h1>

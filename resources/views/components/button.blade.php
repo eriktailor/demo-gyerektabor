@@ -5,12 +5,12 @@
 ])
 
 @php
-	$baseClasses = 'inline-flex items-center justify-center rounded-md font-semibold tracking-tight transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-60 disabled:cursor-not-allowed';
+	$baseClasses = 'inline-flex items-center justify-center rounded-md font-bold tracking-tight transition-colors duration-200 focus:outline-none whitespace-nowrap w-full xs:w-auto';
 
 	$variantClasses = [
-		'primary' => 'bg-primary text-white hover:bg-primary/90 focus-visible:ring-primary',
-		'secondary' => 'bg-zinc-900 text-white hover:bg-zinc-800 focus-visible:ring-zinc-700',
-		'empty' => 'bg-transparent text-zinc-800 hover:bg-zinc-100 focus-visible:ring-zinc-400',
+		'primary' => 'bg-primary text-white hover:bg-primary/90 shadow-xl shadow-primary/30',
+		'secondary' => 'bg-zinc-50 text-zinc-900 hover:bg-zinc-100',
+		'empty' => 'bg-transparent text-zinc-900 hover:text-primary',
 	];
 
 	$sizeClasses = [

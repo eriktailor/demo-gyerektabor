@@ -13,7 +13,7 @@
 
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="antialiased font-sans text-zinc-600 tracking-tight bg-zinc-100">
+    <body class="antialiased font-sans text-zinc-600 tracking-tight bg-zinc-50">
         {{ $slot }}
     </body>
 </html>

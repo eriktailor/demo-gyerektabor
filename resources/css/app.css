@@ -6,6 +6,24 @@
 @source '../**/*.js';
 
 @theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+    --breakpoing-xs: 350px;
+
+    --color-primary: #CE5F34;
+    --font-sans: 'Ruda', sans-serif;
+}
+
+@layer base {
+    b, strong {
+        @apply font-bold text-zinc-900;
+    }
+}
+
+@layer components {
+    .nav-link {
+        @apply relative hover:text-primary transition-colors duration-300
+               after:absolute after:bottom-0 after:left-0 after:h-px after:w-full
+               after:bg-primary after:translate-y-1 after:opacity-0
+               after:transition-all after:duration-300
+               hover:after:translate-y-0 hover:after:opacity-100;
+    }
 }

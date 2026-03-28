@@ -4,6 +4,7 @@
     {{-- Navbar --}}
     <x-navbar/>
 
+
     {{-- Hero --}}
     <x-section>
         <x-container>

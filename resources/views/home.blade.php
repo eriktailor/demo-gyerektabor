@@ -57,11 +57,11 @@
     {{-- Solution --}}
     <x-section>
         <x-container>
-            <div class="grid grid-cols-1 md:grid-cols-2 md:gap-10">
-                <div>
-                    <div class="prose sm:prose-lg mb-10 md:mb-0">
-                        <h2>Mi <em>visszahozzuk</em> azt, ami működött.</h2>
-                        <div class="grid grid-cols-1 xs:grid-cols-2 gap-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 md:gap-10 xl:gap-0">
+                <div class="xl:pr-15">
+                    <div class="prose sm:prose-lg mb-10 w-full md:max-w-none">
+                        <h2 class="sm:mb-10 md:mb-15">Mi <em>visszahozzuk</em> azt, ami működött.</h2>
+                        <div class="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 lg:grid-cols-2 gap-10 sm:max-md:gap-x-15">
                             <x-feature icon="map-pin">
                                 <p><strong>Helyszín:</strong> Balaton, Szántód KFKI Kemping</p>
                             </x-feature>
@@ -75,11 +75,14 @@
                                 <p><strong>Kütyümentes</strong> programok és valódi élmények</p>
                             </x-feature>
                         </div>
-                        <h3 class="w-3/4">Balatoni nyár, ahogy Te megélted.</h3>
+                        <h3 class="sm:max-lg:max-w-100">Balatoni nyár, ahogy Te megélted.</h3>
                     </div>
+                    <x-button href="#" variant="primary" size="md" class="max-xs:hidden">
+                        Online Időpontfoglalás
+                    </x-button>
                 </div>
-                <div class="-mt-15">
-                    <img src="{{ asset('img/kids_3.webp') }}" alt="Gyerek nyári tábor élmények" class="w-auto h-full object-contain scale-115 origin-top-left">
+                <div class="-mt-15 xs:-mt-10 sm:-mt-25 md:-mt-40 lg:-mt-5 mb-10 xs:mb-15 sm:mb-20">
+                    <img src="{{ asset('img/kids_3.webp') }}" alt="Gyerek nyári tábor élmények" class="w-full h-auto object-contain scale-115 2xl:scale-130 origin-top-left">
                 </div>
             </div>
         </x-container>

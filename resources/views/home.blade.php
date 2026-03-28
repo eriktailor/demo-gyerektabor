@@ -35,15 +35,15 @@
     <x-section class="bg-amber-50">
         <x-container>
             <div class="grid grid-cols-1 md:grid-cols-5 gap-0 md:gap-10">
-                <div class="order-2 md:col-span-2">
+                <div class="max-md:order-2 md:col-span-2">
                     <img src="{{ asset('img/kids_2.webp') }}" alt="Gyerek sokat telefonozik" class="w-auto h-full object-contain">
                 </div>
-                <div class="order-1 md:col-span-3 md:pl-15">
-                    <div class="prose sm:prose-lg mb-10 md:mb-15">
+                <div class="max-md:order-1 md:col-span-3 lg:pl-15">
+                    <div class="prose sm:prose-lg mb-10 md:mb-0">
                         <h2>Ha <em>elég</em>, hogy a gyerek...</h2>
-                        <div class="grid grid-cols-1 xs:grid-cols-2 gap-10 max-w-150">
+                        <div class="grid grid-cols-1 xs:grid-cols-2 gap-10 max-w-150 lg:mb-20">
                             <blockquote>Túl sok időt tölt a képernyő és monitor előtt</blockquote>
-                            <blockquote>Nehéz kiszakítani a telefon, tablet világából</blockquote>
+                            <blockquote>Nehezen szakítható ki a telefon, tablet világából</blockquote>
                             <blockquote>Magányos és kevés az igazi élménye</blockquote>
                             <blockquote>Nehezen barátkozik, vagy inkább egyedül van</blockquote>
                         </div>

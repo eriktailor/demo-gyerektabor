@@ -1,4 +1,4 @@
-<nav class="py-3 bg-white" data-navbar>
+<nav class="py-4 bg-white sticky top-0 z-40" data-navbar>
     <x-container>
         <div class="flex items-center justify-between gap-6">
             <div class="flex items-center gap-4">

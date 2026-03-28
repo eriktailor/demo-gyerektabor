@@ -51,6 +51,6 @@
     }
 
     em {
-        @apply not-italic bg-amber-[#FFEEB9] px-2 rounded-xl;
+        @apply not-italic bg-amber-100 px-2 rounded-xl;
     }
 }

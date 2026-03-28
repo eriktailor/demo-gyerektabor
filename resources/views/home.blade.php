@@ -31,4 +31,21 @@
         </x-container>
     </x-section>
 
+    {{-- Problem --}}
+    <x-section class="bg-amber-50">
+        <x-container>
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-10">
+                <div class="md:col-span-2">
+                    <img src="{{ asset('img/kids_1.webp') }}" alt="Gyerekek a táborban" class="w-auto h-full object-contain">
+                </div>
+                <div class="md:col-span-3">
+                    <div class="prose sm:prose-lg mb-10 md:mb-15">
+                        <h1>Balatoni <em>Retró</em> Gyerektábor Szántódon</h1>
+                        <p class="lg:max-w-sm">Családias, nyugodt, megfizethető tábor Balatonszántódon, ahol a digitális zaj helyett a Balaton, a közös játékok és az öröm várja gyerekeit.</p>
+                    </div>
+                </div>
+            </div>
+        </x-container>
+    </x-section>
+
 </x-layout>

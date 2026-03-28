@@ -54,4 +54,35 @@
         </x-container>
     </x-section>
 
+    {{-- Solution --}}
+    <x-section>
+        <x-container>
+            <div class="grid grid-cols-1 md:grid-cols-2 md:gap-10">
+                <div>
+                    <div class="prose sm:prose-lg mb-10 md:mb-0">
+                        <h2>Mi <em>visszahozzuk</em> azt, ami működött.</h2>
+                        <div class="grid grid-cols-1 xs:grid-cols-2 gap-10">
+                            <x-feature icon="map-pin">
+                                <p><strong>Helyszín:</strong> Balaton, Szántód KFKI Kemping</p>
+                            </x-feature>
+                            <x-feature icon="school">
+                                <p><strong>Tapasztalt</strong>, figyelmes táborvezetők és oktatók</p>
+                            </x-feature>
+                            <x-feature icon="shield-check">
+                                <p><strong>Biztonságos</strong>, jól felszerelt környezet</p>
+                            </x-feature>
+                            <x-feature icon="device-mobile-off">
+                                <p><strong>Kütyümentes</strong> programok és valódi élmények</p>
+                            </x-feature>
+                        </div>
+                        <h3 class="w-3/4">Balatoni nyár, ahogy Te megélted.</h3>
+                    </div>
+                </div>
+                <div class="-mt-15">
+                    <img src="{{ asset('img/kids_3.webp') }}" alt="Gyerek nyári tábor élmények" class="w-auto h-full object-contain scale-115 origin-top-left">
+                </div>
+            </div>
+        </x-container>
+    </x-section>
+
 </x-layout>

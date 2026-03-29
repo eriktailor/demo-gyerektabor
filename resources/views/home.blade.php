@@ -111,13 +111,13 @@
         </x-container>
     </x-section>
 
-    {{-- Offer --}}
+    {{-- Desire --}}
     <x-section>
         <x-container>
             <div class="prose sm:prose-lg lg:max-w-none mb-10">
                 <h2>Mi <em>élményeket</em> adunk, amikre még évek múlva is emlékezni fognak.</h2>
             </div>
-            <div class="grid grid-cols-2 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-5 2xl:grid-cols-6 gap-10 sm:gap-x-15 lg:gap-x-10 lg:place-items-center">
+            <div class="grid grid-cols-2 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-5 2xl:grid-cols-6 gap-10 sm:gap-x-15 lg:gap-x-10 lg:place-items-center mb-10 xs:mb-15">
                 <x-feature icon="ball-football">
                     <p><strong>Foci</strong> a poros pályán</p>
                 </x-feature>
@@ -137,6 +137,24 @@
                     <p><strong>Séták</strong> a természetben</p>
                 </x-feature>
             </div>
+            <div class="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 xl:grid-cols-5 gap-y-5 xs:gap-x-5">
+                <div class="sm:col-span-2 md:col-span-1 md:flex md:flex-col space-y-5">
+                    <div class="prose sm:prose-lg max-w-none">
+                        <h3>Ez az a nyár, amit te is megéltél és amit most ő is megélhet.</h3>
+                    </div>
+                    <img src="{{ asset('img/fun_1.webp') }}" alt="Társasjátékozó gyerekek" class="w-full h-auto md:grow object-cover rounded-2xl shadow-lg shadow-zinc-600/30">
+                </div>
+                <div class="xl:col-span-2 2xl:col-span-3">
+                    <img src="{{ asset('img/fun_2.webp') }}" alt="Tábortűz és gyerekek" class="w-auto h-full object-cover rounded-2xl xs:origin-center shadow-lg shadow-zinc-600/30">
+                </div>
+                <div class="xs:col-span-2 sm:col-span-3 xl:col-span-2 2xl:col-span-1 md:col-span-1 space-y-5">
+                    <img src="{{ asset('img/fun_3.webp') }}" alt="Pingpongozó gyerek" class="w-full h-auto md:h-full object-cover rounded-2xl shadow-lg shadow-zinc-600/30">
+                    <x-button href="#" variant="primary" size="md" class="xs:w-full sm:hidden">
+                        Online Időpontfoglalás
+                    </x-button>
+                </div>
+            </div>
+            
         </x-container>
     </x-section>
 

@@ -159,7 +159,7 @@
     </x-section>
 
     {{-- Contact --}}
-    <x-section class="bg-amber-50">
+    <x-section class="bg-amber-50 md:pb-10! lg:pb-0!">
         <x-container>
             <div class="prose sm:prose-lg mb-10">
                 <h2>Jelentkezz <em>most</em></h2>
@@ -181,5 +181,7 @@
             </div>
         </x-container>
     </x-section>
+
+    <x-footer/>
 
 </x-layout>

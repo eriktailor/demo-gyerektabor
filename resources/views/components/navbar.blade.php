@@ -11,7 +11,6 @@
                 <a class="nav-link" href="#">Programok</a>
                 <a class="nav-link" href="#">Élmények</a>
                 <a class="nav-link" href="#">Jelentkezés</a>
-                <a class="nav-link" href="#">Kapcsolat</a>
             </div>
 
             <button

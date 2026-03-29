@@ -5,7 +5,7 @@
 ])
 
 @php
-	$baseClasses = 'inline-flex items-center justify-center rounded-md font-bold tracking-tight transition-colors duration-200 focus:outline-none whitespace-nowrap w-full xs:w-auto';
+	$baseClasses = 'inline-flex items-center justify-center rounded-md no-underline font-bold tracking-tight transition-colors duration-200 focus:outline-none whitespace-nowrap w-full xs:w-auto';
 
 	$variantClasses = [
 		'primary' => 'bg-primary text-white hover:bg-primary/90 shadow-xl shadow-primary/30',

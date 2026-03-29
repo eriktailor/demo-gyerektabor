@@ -161,20 +161,23 @@
     {{-- Contact --}}
     <x-section class="bg-amber-50">
         <x-container>
-            <div class="prose sm:prose-lg mb-10 md:mb-0">
+            <div class="prose sm:prose-lg mb-10">
                 <h2>Jelentkezz <em>most</em></h2>
-                <div class="grid grid-cols-1 xs:grid-cols-2 gap-10 max-w-150 mb-10 lg:mb-20">
+                <div class="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 gap-10 xl:gap-20 max-w-150 mb-10 lg:max-xl:mb-15">
                     <blockquote>Takács Éva<br><a href="#">+36 30 533 6724</a></blockquote>
-                    <blockquote>Helyszín<br>8120 Siófok, Főház utca 12.</blockquote>
+                    <blockquote class="max-sm:hidden md:hidden lg:block">8120 Siófok,<br> Főház utca 12.</blockquote>
+                    <blockquote>Email<br><a href="mailto:info@example.com">info@tabor.hu</a></blockquote>
                 </div>
             </div>
-            <div class="bg-primary rounded-2xl p-10 pb-0 dark prose-invert prose sm:prose-lg">
-                <h3 class="mt-0!">Ne hagyd ki ezt a nyarat!</h3>
-                <p class="text-white/80!">Foglalj helyet most, és biztosítsd, hogy gyereked egy felejthetetlen balatoni kalandban részesüljön!</p>
-                <x-button href="#" variant="secondary" size="md" class="xs:w-full">
-                    Online Időpontfoglalás
-                </x-button>
-                <img src="{{ asset('img/kids_5.webp') }}" alt="Gyerekek nyári tábora" class="w-full h-auto object-contain">
+            <div class="bg-primary rounded-2xl p-10 pb-0 md:py-0 lg:px-15 dark prose-invert prose sm:prose-lg max-w-none md:grid md:grid-cols-2 md:gap-10">
+                <div class="flex flex-col justify-center items-start md:h-full md:min-h-80">
+                    <h3 class="mt-0!">Ne hagyd ki ezt a nyarat!</h3>
+                    <p class="text-white/80! text-wrap">Foglalj helyet most, és biztosítsd, hogy gyereked egy felejthetetlen balatoni kalandban részesüljön!</p>
+                    <x-button href="#" variant="secondary" size="md" class="max-sm:w-full">
+                        Online Időpontfoglalás
+                    </x-button>
+                </div>
+                <img src="{{ asset('img/kids_5.webp') }}" alt="Gyerekek nyári tábora" class="w-full h-auto xs:max-h-70 sm:max-h-100 max-xs:object-contain object-cover object-top md:-mt-35 md:scale-110 xl:scale-100 md:origin-bottom-left lg:-mt-50 lg:max-h-150">
             </div>
         </x-container>
     </x-section>
